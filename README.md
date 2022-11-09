@@ -2,12 +2,12 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis was to create a DataFrame of the ride-sharing data and summarize it through the type of city. A line graph was then made using a resampled version of the DataFrame to properly chart all three city types. The intitial ride-sharing data was provided for in the [city_data.csv]() Series and the [ride_data.csv]() Series. These were then merged into one DataFrame on the city column since that was shared across the two Series. The script of code can be found in the [PyBer_Challenge.ipynd]() file and the results of the analysis will be detailed below in the "Results" section.
+The purpose of this analysis was to create a DataFrame of the ride-sharing data and summarize it through the type of city. A line graph was then made using a resampled version of the DataFrame to properly chart all three city types. The intitial ride-sharing data was provided for in the [city_data.csv](https://github.com/stwpf01/PyBer_Analysis/blob/main/Resources/city_data.csv) Series and the [ride_data.csv](https://github.com/stwpf01/PyBer_Analysis/blob/main/Resources/ride_data.csv) Series. These were then merged into one DataFrame on the city column since that was shared across the two Series. The script of code can be found in the [PyBer_Challenge.ipynd](https://github.com/stwpf01/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb) file and the results of the analysis will be detailed below in the "Results" section.
 ## Results
 
 Here are the results for the Total Ride, Total Drivers, Total Fares, Average Fare per Ride, and Average Fare per Driver per city type:
 
-![Summary_DataFrame]()
+![Summary_DataFrame](https://github.com/stwpf01/PyBer_Analysis/blob/main/analysis/Summary_DataFrame.png)
 
 Here is an example of how this information was found; To get the Average Fare per Ride is as follows:
 
@@ -22,7 +22,7 @@ Here is an example of how this information was found; To get the Average Fare pe
 
 These results were placed into a line graph as seen below:
 
-![PyBer_fare_summary]()
+![PyBer_fare_summary](https://github.com/stwpf01/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 
 Based on the line graph and the summary of the DataFrame, Urban cities made much more in terms of total fares compared to the Rural and Suburban cities. Furthermore, because there are significantly more drivers compared to the number of rides, the average cost of a ride is lower in Urban cities, but also the amount of fare a driver makes is much less when compared to the Rural and Suburban cities.
